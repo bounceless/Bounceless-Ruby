@@ -3,8 +3,8 @@ require "email_list_verify/version"
 require 'rest-client'
 class bounceless
   BASE = 'https://apps.bounceless.io/api'
-  ONE_BY_ONE_PATH = BASE + "/verifEmail"
-  UPLOAD_FILE_PATH = BASE + "/verifApiFile"
+  ONE_BY_ONE_PATH = BASE + "/verifyEmail"
+  UPLOAD_FILE_PATH = BASE + "/verifyApiFile"
   FILE_INFO_PATH = BASE + "/getApiFileInfo"
   BULK_ERRORS = ["no_credit","cannot_upload_file","key_not_valid","missing_parameters"]
 
