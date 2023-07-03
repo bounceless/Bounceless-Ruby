@@ -32,7 +32,7 @@ client = bounceless.new(api_key)
 
 Now the API calls can be done via the client
 
-### For OneByOne Verification
+### For Single Verification
 
     client.one_by_one("<email_to_verify>")
 
